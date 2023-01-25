@@ -1,0 +1,435 @@
+body {
+    background-image: url(../images/bg.png);
+    
+    background-repeat: no-repeat;
+    background-size: auto;
+   padding: 0;
+   margin: 0;
+    background-position: top;
+    
+    
+
+
+}
+
+
+
+html {
+
+scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+.Welcome {
+
+
+text-align: center;
+
+
+
+}
+
+h1, p{
+
+    font-family: 'Unbounded', cursive;
+    margin: 3rem;
+    text-align: center;
+
+
+}
+
+.shopnow {
+    border-width: 3px;
+    margin-right: 8rem;
+    position: relative;
+    border-radius: 50px;
+    background:#ffffff;
+    margin-top: 20rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-family: 'Unbounded', cursive;
+    transition: 0.8s;
+    color: #000000;
+    border-color: #000000;
+
+}
+.shopnow:hover {
+
+    color: white;
+    background:  #000000;
+    border-color: #ffffff;
+    transform:scale(1.3,1.3)
+
+}
+
+
+
+
+
+
+
+.navlist {
+    font-family: 'Unbounded', cursive;
+    display: inline;
+    margin-top: 2rem;
+    padding: 14px 16px;
+    
+
+
+}
+
+.container {
+    --max-width: 120rem;
+    --padding: 1rem;
+    width: min(var(--max-width), 100% -var(--padding));
+    margin-inline: auto;
+    display: inline;
+
+
+}
+
+.h1order {
+text-align: center;
+display: inline-block;
+
+}
+
+.h3order {
+
+    text-align: center;
+    margin-left: 5rem;
+}
+
+.navmenu {
+    visibility: hidden;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+max-height: 2rem;
+
+}
+
+section {
+   
+
+    padding-block: 15rem;
+
+
+}
+
+
+
+.logo {
+    padding-left: 2rem;
+   
+
+}
+
+.navitems {
+    font-weight: bold;
+   padding-right: 1rem;
+   text-align: center;
+    
+}
+
+.lists {
+text-decoration: none;
+padding-left: 5rem;
+color: black;
+border-bottom: #E5D2C4;
+}
+
+
+
+.workers {
+border-radius: 30rem;
+max-height: 7rem;
+
+
+
+
+}
+
+.items {
+    margin-left: 10rem;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
+
+
+}
+
+
+.caption {
+    padding-top: 1rem;
+font-family: 'Unbounded', cursive;
+
+display: block;
+
+
+}
+
+.meet {
+
+
+    background-color: #000000;
+
+}
+
+
+
+.icons {
+padding: 2rem;
+max-height: 4rem;
+padding: 1rem;
+
+
+
+}
+
+
+
+
+div.icon {
+    justify-content: center;
+    display:flex;
+  
+}
+
+
+.about-us {
+    
+    background-image: url("../images/bg1.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+  
+    
+}
+
+
+
+.contact-us {
+
+    background-image: url("../images/bg2.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: right;
+    
+}
+
+.behind {
+
+    color: white;
+
+}
+
+figcaption {
+
+    color: white;
+
+}
+.mobilenav {
+    visibility: hidden;
+    margin-left: 3rem;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+max-height: 2rem;
+
+}
+
+.white:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .white:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .white:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .white:active {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .navburger{
+    visibility: hidden;
+    margin-left: 2rem;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+max-height: 2rem;
+
+}
+
+.selecting {
+
+background-image: url(../images/bg5.png);
+
+background-attachment: fixed;
+  background-position: center;
+  
+}
+
+.white {
+
+    color: white;
+
+}
+
+.h3orderwhite {
+    color: white;
+    margin-left: 3rem;
+
+}
+
+.orderbtn1 {
+    border-width: 3px;
+    padding: 1rem;
+    position: relative;
+    border-radius: 40px;
+    background:#ffffff;
+    font-weight: bold;
+    font-family: 'Unbounded', cursive;
+    transition: 0.8s;
+    color: #000000;
+    border-color: #000000;
+
+}
+
+.orderbtn2 {
+    border-width: 3px;
+    padding: 1rem;
+    position: relative;
+    border-radius: 40px;
+    background:#ffffff;
+    font-weight: bold;
+    font-family: 'Unbounded', cursive;
+    transition: 0.8s;
+    color: #000000;
+    border-color: #000000;
+
+}
+
+
+
+@media all and (max-width: 1000px ) {
+
+    .Welcome {
+
+        margin-left: 5rem;
+        text-align: center;
+        
+        
+        
+        }
+    
+    body {
+        background-image: url(../images/bg400.png);
+        
+    }
+
+    .navburger{
+        visibility: visible;
+        margin-left: 2rem;
+        display: inline-block;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    max-height: 2rem;
+
+    }
+    .mobilenav {
+        visibility: visible;
+        margin-left: 2rem;
+        display: inline-block;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    max-height: 2rem;
+    
+    }
+    .lists {
+       visibility: hidden;
+     display: flex;
+
+    }
+    .about-us {
+
+        background-image: none;
+
+    }
+    .contact-us {
+
+        background-image: none;
+
+    }
+    .landing {
+
+        color: white;
+
+    }
+    .shopnow {
+        color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+ .shopnow:hover {
+
+    color:black;
+    background: white
+    
+
+ }
+ .selecting {
+
+    background-image: none;
+ }
+  }
+
+  @media all and (max-width: 760px ) {
+    .mobilenav {
+        visibility: hidden;
+        margin-left: 2rem;
+        display: inline-block;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    max-height: 2rem;
+    }
+  }
